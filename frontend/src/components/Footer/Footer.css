@@ -1,0 +1,44 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.footer-logo{
+    text-align: center;
+}
+.logo-text{
+    font-size: 2.4rem;
+}
+.footer-links{
+    margin-top: 30px;
+    display: flex;
+    gap: 40px;
+}
+.footer-links li{
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+.footer-social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-block: 25px;
+}
+.icons-container img{
+    cursor: pointer;
+}
+.copyright{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.copyright hr{
+    width: 100%;
+    height: 2px;
+    border: none;
+    background-color: #ccc;
+}
